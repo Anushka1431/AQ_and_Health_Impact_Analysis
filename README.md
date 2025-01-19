@@ -13,17 +13,8 @@ The following models were implemented:
 Training and Testing
 •	Dataset split: 80% training, 20% testing.
 •	All models trained using scaled features for consistency.
-Model Evaluation
-Model	             RMSE	   R²
-Linear Regression	 9.63	  0.51
-ElasticNet	       10.48	0.41
-Decision Tree    	 5.06	  0.86
-Random Forest	     3.21	  0.94
-SVR	               9.50	  0.52
-KNN	               8.34	  0.63
-LightGBM	         2.37	  0.97
-________________________________________
-7. Results and Model Evaluation
+![image](https://github.com/user-attachments/assets/239776bb-991b-47bd-898f-1ec9c00f60b5)
+
 Results Summary
 •	Light GBM was the best-performing model, with an RMSE of 2.37 and an R² of 0.96, indicating that it explained 96% of the variance in the health impact score.
 •	Random Forest also performed well but slightly overfit compared to Light GBM.
